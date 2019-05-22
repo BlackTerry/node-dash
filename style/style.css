@@ -77,15 +77,17 @@ ul > li > i {
 
 .cont_main {
   box-shadow: 0 0 10px black;
-  max-width: 1290px;
+  /*max-width: 1290px;*/
   height: 46em;
   border-radius: 3px;
   position: relative;
   background: #f7f7f7;
+  /*
   overflow: hidden;
   display: block;
   margin: 0 auto;
   margin-top: 3vw;
+  */
 }
 
 .material-icons {
@@ -2910,9 +2912,11 @@ button:focus {
   background: #ff9800;
 }
 body {
-  padding: 20px;
+  /*
+  padding:20px;
   background: #fafafa;
   position: relative;
+  */
 }
 .mdl-card__supporting-text {
   padding: 0 1em;
