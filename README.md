@@ -1,7 +1,7 @@
 
 
 
-**GethDesk (The original version this is the Ether-1 Version)** — is an open source application to simplify work with “Ethereum Geth Go” console client and to show you data about your node current condition without using console commands.
+**GethDesk (The original version this is the Ether-1 Version)** — is an open source application to simplify work with “Ethereum Geth” console client and to show you data about your node current condition without using console commands.
 #### Install this app as [chrome extension](https://chrome.google.com/webstore/detail/ethereum-gethdesk/ldbikceofpgkjbmoijglmnaphdcfmklp?hl=uk) or go directly to <a href='http://cryptobit-env.7hiybanifg.eu-central-1.elasticbeanstalk.com/gethdesk/index.html'>GethDesk</a> url.
 <a href='https://chrome.google.com/webstore/detail/ethereum-gethdesk/ldbikceofpgkjbmoijglmnaphdcfmklp?hl=ru'  target="_blank">
  <img src='https://github.com/edmlbox/CryptoBit-Bitcoin-wallet/blob/master/readmeIMG/chrome-web-store.png'/>
@@ -16,7 +16,7 @@
 * **"Open"** or **"Not"** your node to network connections.
 * Number of peers connected to your node. (Default maximum is 25, if not
    specified else.);
-* Current Ethereum protocol version.
+* Current Ether-1 protocol version.
 * Node mining status **"Yes"** or **"Not"**, if yes than you get the hashrate speed.
 * Current price per gas in ether. (Other units available also).
 * Mining default reward address. (You can change it).
@@ -54,4 +54,3 @@
 ## How to use Node Monitor:
 
 #### `geth --rpc --rpcaddr 0.0.0.0 --rpccorsdomain '*' -rpcapi="admin,personal,net,web3,miner,eth,txpool,debug"`
-
